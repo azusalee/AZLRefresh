@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AZLRefresh_Example' do
+  pod 'AZLRefresh', :path => '../'
+
+  target 'AZLRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
