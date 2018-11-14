@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		10CE8B70F76D75E37505897A /* Pods-AZLRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZLRefresh_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1FB82B1FDCE995F57A0B0FE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		36D96F1CAF2446E0C4AE0245 /* AZLRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AZLRefresh.podspec; path = ../AZLRefresh.podspec; sourceTree = "<group>"; };
+		1FB82B1FDCE995F57A0B0FE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36D96F1CAF2446E0C4AE0245 /* AZLRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AZLRefresh.podspec; path = ../AZLRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		39AD76F61FB3658B446F8C2D /* Pods_AZLRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AZLRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZLRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		6D75144408ACDA5A8DF36D96 /* Pods_AZLRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7650F787C53171DEF97F5DC7 /* Pods-AZLRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZLRefresh_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C43263C78F6180500CFCDB44 /* Pods-AZLRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZLRefresh_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCCD4926F3085D156A1FEBCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCCD4926F3085D156A1FEBCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF3BEFD98DAC4C8F230DCE7F /* Pods-AZLRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZLRefresh_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

@@ -1,0 +1,13 @@
+"AZLRefreshHeaderNormalText" = "下拉刷新";
+"AZLRefreshHeaderPullingText" = "松开立即刷新";
+"AZLRefreshHeaderRefreshingText" = "正在刷新数据中...";
+
+"AZLRefreshFooterNormalText" = "上拉加载更多";
+"AZLRefreshFooterPullingText" = "松开立即加载更多";
+"AZLRefreshFooterRefreshingText" = "正在加载更多的数据...";
+
+"AZLRefreshNoMoreDataText" = "沒有更多数据";
+
+"AZLRefreshHeaderLastTimeText" = "最后更新: ";
+"AZLRefreshHeaderDateTodayText" = "今日";
+"AZLRefreshHeaderNoneLastDateText" = "无记录";

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AZLRefresh'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AZLRefresh.'
+  s.summary          = '下拉刷新控件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 一个swift写的，用于iOS的下拉上拉刷新控件
                        DESC
 
   s.homepage         = 'https://github.com/azusalee/AZLRefresh'
@@ -29,8 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'AZLRefresh/Classes/**/*'
+  s.resource     = 'AZLRefresh/Resources/AZLRefresh.bundle'
   
   # s.resource_bundles = {
   #   'AZLRefresh' => ['AZLRefresh/Assets/*.png']
