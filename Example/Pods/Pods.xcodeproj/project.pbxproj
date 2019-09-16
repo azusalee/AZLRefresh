@@ -7,329 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DEC5CC0B9BD8EC88E3070E5F566FAB4 /* AZLRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70350F61DF8EEA6BEBADC700055CC6EC /* AZLRefresh-dummy.m */; };
-		3D69B93D51370249454AADE592605936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		703663590AF738D8E7B92114C7856730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7A78E587F7FD42BAB8A5C84B04E2AE77 /* AZLRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38486DA68B1E4D7778277C5D8AC182E7 /* AZLRefreshHeader.swift */; };
-		8582E1286B8149069774136BFB1019CA /* Pods-AZLRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1B5E46839339A6D155C636785F81 /* Pods-AZLRefresh_Example-dummy.m */; };
-		8F672DE658C367228048462FBCF5D5F1 /* UIScrollView+AZLRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829AB33AFD1B92EB42513B6A67B1EF2B /* UIScrollView+AZLRefresh.swift */; };
-		A5440638EB8D31104753ABC03B11CF54 /* AZLNormalRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04618D368925820B328F892107B9D788 /* AZLNormalRefreshHeader.swift */; };
-		B9C7ECA053919A5443DF4A6DC68646C4 /* Pods-AZLRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3F62E0DD950D610E7ECCF6E7ED3362 /* Pods-AZLRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1468A172CBA4A9C50361FA228B2BB39 /* AZLNormalRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA2739EC8445A81D67FB21CAA41621 /* AZLNormalRefreshFooter.swift */; };
-		C168B6957A169C7F8EAB7155A2480C11 /* Pods-AZLRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C058D697FA4E65DB8EE8410D2DA2608F /* Pods-AZLRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2C5D78A4C39862199BA2DD735F204C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C5A19E6B6EC7413193AB0C4766A50DF7 /* AZLRefreshResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DA6A93AF5553CA1AADC987B924879 /* AZLRefreshResourceManager.swift */; };
-		D86F500E231F488294A25BBD4A8AF267 /* AZLRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12330364F69A82AD9AEAF0ADD80EC151 /* AZLRefreshFooter.swift */; };
-		E94C07F0814DD5B330EBAF267D6F47CD /* AZLRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291C75EB1D916B7E580C3D6F764C5F /* AZLRefreshView.swift */; };
-		E97B6052ACCE3FDCF5EEDCF84F39D2D7 /* AZLRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8C3240ED287CF9A6423392EE03CC21 /* AZLRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F72534FF9D0EF8249DC28BD63A0000AC /* Pods-AZLRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8539313EAF3C0027F86829989AF1B /* Pods-AZLRefresh_Tests-dummy.m */; };
-		FED25CDA0B70F2A5A9AFDE6654E6A424 /* AZLRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C0911558E433E2A2C3DB7F69350DE83 /* AZLRefresh.bundle */; };
+		13EB005D3A068EEBD9D7A3C9FB91A089 /* Pods-AZLRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9098FDDDFAA66E59A0E178AE6A19502 /* Pods-AZLRefresh_Tests-dummy.m */; };
+		17AA7325725487478709E2F02CAAB729 /* AZLRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C83AC619B7CB26F3CA8A737BE6DBBEF /* AZLRefresh.bundle */; };
+		1C24F10BB0EFD1CFC2E092BA250F64BF /* AZLRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D6E7EC5FAF1D02DCCF114C06EBF28 /* AZLRefresh-dummy.m */; };
+		2D768E5E695F53486585234A2871F4CB /* Pods-AZLRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70331D613434607FCE88C0BD28AE30D /* Pods-AZLRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BAA800188075BFEBA4ECDB4CF48EBD /* AZLRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560CF6AAEB6BB22EAF89AF501E87E186 /* AZLRefreshView.swift */; };
+		56C61ACEFF263434C1E6F56B68EF26D2 /* Pods-AZLRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2D9FDC9B402EA8A51510AF651A152 /* Pods-AZLRefresh_Example-dummy.m */; };
+		5F6034B71DF780BD3C1950FFC74A6CAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6DDBE3505E82FC338AFAA2ECA497E9CC /* Pods-AZLRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F82F5BE54A243B377693967A0F93E54E /* Pods-AZLRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8542C0D205FDD6B4720465EE91D94D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AFACD06E1564F58105F9B3DEC3906226 /* AZLRefreshResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D68A45BAF1E400DCA30F555535195 /* AZLRefreshResourceManager.swift */; };
+		B41E3E8F6DEB4E7F312F5F4F76D31B98 /* AZLRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBC3A754046BC2BBBB52B9B3BE8554 /* AZLRefreshFooter.swift */; };
+		B9C7859D1093B2843CD561BB25D53897 /* AZLNormalRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54813390D89BE904083C424DE7967D4D /* AZLNormalRefreshFooter.swift */; };
+		BD0B2584F1F3AF801BC811DB5D6EA823 /* AZLRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C82E41A621D670DCF892877C0D57C /* AZLRefreshHeader.swift */; };
+		F77F570F2A91A038CB8D3E4C4508E1AB /* AZLRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AF6D0B6B2BA78B07D450E31D647A4C /* AZLRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE9EB7DFD04F3A64E898BD7F1220CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FB8AF9A48B5B2E2F0B518228D04F471B /* UIScrollView+AZLRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFBD759FB2964ABA50C742800AB6415 /* UIScrollView+AZLRefresh.swift */; };
+		FE4CA2BC203B0396274FCAD8FD694CA6 /* AZLNormalRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A385CB7F1F97ED92F0D3872312A9B6 /* AZLNormalRefreshHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68A25B3C613D179F53907EABEA3AE3A6 /* PBXContainerItemProxy */ = {
+		5DBBE28223E026EF30C9CADE8765ED82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C37A6CCE11816E621E58F58576B28235;
-			remoteInfo = AZLRefresh;
-		};
-		C1F33EFE293369AA6D3C1D08D7F9CD4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 867413420F7ACE40296440CACE119143;
+			remoteGlobalIDString = 9A0D1809A9FB8BD9B38D0568D88D7A2D;
 			remoteInfo = "Pods-AZLRefresh_Example";
+		};
+		AECB16C8DEB2E4D1BFB0B65023FE390A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE406649AF5AA9F35D514501BC42F2D;
+			remoteInfo = AZLRefresh;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02291C75EB1D916B7E580C3D6F764C5F /* AZLRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshView.swift; path = AZLRefresh/Classes/AZLRefreshView.swift; sourceTree = "<group>"; };
-		04618D368925820B328F892107B9D788 /* AZLNormalRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLNormalRefreshHeader.swift; path = AZLRefresh/Classes/AZLNormalRefreshHeader.swift; sourceTree = "<group>"; };
-		07A6FC7D7B555A12576428075D0FE249 /* Pods-AZLRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B6803D6CBADAA402AACAF5C9AA83470 /* Pods-AZLRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FFE1B5E46839339A6D155C636785F81 /* Pods-AZLRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLRefresh_Example-dummy.m"; sourceTree = "<group>"; };
-		12330364F69A82AD9AEAF0ADD80EC151 /* AZLRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshFooter.swift; path = AZLRefresh/Classes/AZLRefreshFooter.swift; sourceTree = "<group>"; };
-		12882127BF77C86CA4AD7CE69FF84DCC /* Pods_AZLRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLRefresh_Tests.framework; path = "Pods-AZLRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13221F7298DD122B955CC78D09C9053F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14BA2739EC8445A81D67FB21CAA41621 /* AZLNormalRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLNormalRefreshFooter.swift; path = AZLRefresh/Classes/AZLNormalRefreshFooter.swift; sourceTree = "<group>"; };
-		216D60886A124D0E18A4CBD3879A88BD /* Pods-AZLRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLRefresh_Example-resources.sh"; sourceTree = "<group>"; };
-		26DF03D3170DD06D11D2F5C12D1D8D71 /* AZLRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZLRefresh.framework; path = AZLRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29175CEBD3401111257FDCFD9675FEF9 /* Pods-AZLRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C0911558E433E2A2C3DB7F69350DE83 /* AZLRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AZLRefresh.bundle; path = AZLRefresh/Resources/AZLRefresh.bundle; sourceTree = "<group>"; };
-		300DA6A93AF5553CA1AADC987B924879 /* AZLRefreshResourceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshResourceManager.swift; path = AZLRefresh/Classes/AZLRefreshResourceManager.swift; sourceTree = "<group>"; };
-		38486DA68B1E4D7778277C5D8AC182E7 /* AZLRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshHeader.swift; path = AZLRefresh/Classes/AZLRefreshHeader.swift; sourceTree = "<group>"; };
-		3A5B7305E1B9F06D31FCBB770B209589 /* Pods-AZLRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLRefresh_Example.modulemap"; sourceTree = "<group>"; };
-		4FD01C4857DCD2F1827958870F1023A5 /* Pods-AZLRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
-		52F3E0D2B1C61BC0E111C16AB89EDA21 /* Pods_AZLRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLRefresh_Example.framework; path = "Pods-AZLRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5EE67CA8F7CBE806C5D9DAD0C7272075 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B6E80D758947B1C85731D058F8C5391 /* Pods-AZLRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70350F61DF8EEA6BEBADC700055CC6EC /* AZLRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZLRefresh-dummy.m"; sourceTree = "<group>"; };
-		732F9B77E23E0029262153F1A8D0D28E /* Pods-AZLRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		7B3F62E0DD950D610E7ECCF6E7ED3362 /* Pods-AZLRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8061C263BDC52E15867CC18992D40A15 /* Pods-AZLRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		829AB33AFD1B92EB42513B6A67B1EF2B /* UIScrollView+AZLRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+AZLRefresh.swift"; path = "AZLRefresh/Classes/UIScrollView+AZLRefresh.swift"; sourceTree = "<group>"; };
-		8BB8F2AE8A0D99A3AE905073EE9B192F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		955C1EC03B7D1799ADA00F6CE4007F4E /* Pods-AZLRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		97F0111DD503BDCFE986AF03267F0E3B /* Pods-AZLRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C29A87A7994D79CD0E44A8C4E76E16C /* AZLRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZLRefresh.xcconfig; sourceTree = "<group>"; };
-		9DA8539313EAF3C0027F86829989AF1B /* Pods-AZLRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		A30636620E604234A9719CBA2C94EA84 /* Pods-AZLRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ADF08FD6915195C895712074A2668438 /* Pods-AZLRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C058D697FA4E65DB8EE8410D2DA2608F /* Pods-AZLRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
-		C114F31C4BBBDEE1C0FB2E467F09F546 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CB70322DFEF558F38BC3E1BE91A53479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6D4472917C70EE0E20774FA21722B83 /* Pods-AZLRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB8C3240ED287CF9A6423392EE03CC21 /* AZLRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLRefresh-umbrella.h"; sourceTree = "<group>"; };
-		DDEE856D132D66512BE8870413CF5790 /* AZLRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLRefresh-prefix.pch"; sourceTree = "<group>"; };
-		FBA86C9FE6267021E87EEC7DEAAA42EB /* AZLRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AZLRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FCE5C0F5B434298D9070333DC3A0C8C6 /* AZLRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZLRefresh.modulemap; sourceTree = "<group>"; };
+		049A3C552D4CF8DCED97AE93C9DE0A2F /* AZLRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AZLRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06219CB9DF5BF90089603DA7529B630E /* AZLRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZLRefresh.modulemap; sourceTree = "<group>"; };
+		0C32FB379B8967705671192F8177C960 /* Pods-AZLRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		0C83AC619B7CB26F3CA8A737BE6DBBEF /* AZLRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AZLRefresh.bundle; path = AZLRefresh/Resources/AZLRefresh.bundle; sourceTree = "<group>"; };
+		120C82E41A621D670DCF892877C0D57C /* AZLRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshHeader.swift; path = AZLRefresh/Classes/AZLRefreshHeader.swift; sourceTree = "<group>"; };
+		144BED8DC8FE69F08597FCB543CBF678 /* Pods_AZLRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLRefresh_Tests.framework; path = "Pods-AZLRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4306A210D98C7962F2C95E488D1D3 /* Pods-AZLRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLRefresh_Example.modulemap"; sourceTree = "<group>"; };
+		30A385CB7F1F97ED92F0D3872312A9B6 /* AZLNormalRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLNormalRefreshHeader.swift; path = AZLRefresh/Classes/AZLNormalRefreshHeader.swift; sourceTree = "<group>"; };
+		3FDCFF313220653E0365A44CCD10DE41 /* AZLRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZLRefresh.framework; path = AZLRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43825EEE9B6D2333383D6EF2DC484E56 /* Pods-AZLRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Example-Info.plist"; sourceTree = "<group>"; };
+		47FBC3A754046BC2BBBB52B9B3BE8554 /* AZLRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshFooter.swift; path = AZLRefresh/Classes/AZLRefreshFooter.swift; sourceTree = "<group>"; };
+		4A4E512BF023F47B3821F1FFCE17209A /* Pods-AZLRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54813390D89BE904083C424DE7967D4D /* AZLNormalRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLNormalRefreshFooter.swift; path = AZLRefresh/Classes/AZLNormalRefreshFooter.swift; sourceTree = "<group>"; };
+		55D2D9FDC9B402EA8A51510AF651A152 /* Pods-AZLRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		560CF6AAEB6BB22EAF89AF501E87E186 /* AZLRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshView.swift; path = AZLRefresh/Classes/AZLRefreshView.swift; sourceTree = "<group>"; };
+		5641E957C93AC5EEB6E71F3170E10D2F /* Pods-AZLRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DDD610A52AB1DC0C22282B38EA26EFD /* Pods-AZLRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5EC25E27BEB80A2E15E846D0E046D745 /* AZLRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZLRefresh.xcconfig; sourceTree = "<group>"; };
+		5F809289A7F08AB3190FDDAB74A75A0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		632E20592C1748F9B83FC49CD98C8C59 /* Pods-AZLRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A0C1B54FAC6586EB985031FAA15CB0C /* Pods-AZLRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B7D6E7EC5FAF1D02DCCF114C06EBF28 /* AZLRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZLRefresh-dummy.m"; sourceTree = "<group>"; };
+		7B8FA094BE26223660BE4EA574D4BD2C /* Pods-AZLRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83AF6D0B6B2BA78B07D450E31D647A4C /* AZLRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLRefresh-umbrella.h"; sourceTree = "<group>"; };
+		8489FA56876FB876B83D39D591112C9D /* AZLRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AZLRefresh-Info.plist"; sourceTree = "<group>"; };
+		8A9C771D4811E1ADF2FA1AD93CB031CB /* Pods-AZLRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E62C1C5F26034CFDF987C15AB9D9E28 /* Pods-AZLRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD878E876B40031C8CC11475C1C1DA7F /* Pods-AZLRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
+		B70331D613434607FCE88C0BD28AE30D /* Pods-AZLRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD50806068CDC214D272E749854EA691 /* Pods_AZLRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLRefresh_Example.framework; path = "Pods-AZLRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE57E289EB7E24D1E6E4203F4A040006 /* Pods-AZLRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9098FDDDFAA66E59A0E178AE6A19502 /* Pods-AZLRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBF3F769AC568409F13112B98C0671FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F82F5BE54A243B377693967A0F93E54E /* Pods-AZLRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE2D68A45BAF1E400DCA30F555535195 /* AZLRefreshResourceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZLRefreshResourceManager.swift; path = AZLRefresh/Classes/AZLRefreshResourceManager.swift; sourceTree = "<group>"; };
+		FF7C46F4D064B5DF37DFAFED32A4F4FC /* AZLRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLRefresh-prefix.pch"; sourceTree = "<group>"; };
+		FFFBD759FB2964ABA50C742800AB6415 /* UIScrollView+AZLRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+AZLRefresh.swift"; path = "AZLRefresh/Classes/UIScrollView+AZLRefresh.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA58CCC8FD3E0F3CA4835D6387823FB0 /* Frameworks */ = {
+		01DE9F5DC7F0D990C6532207AA7D201D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D69B93D51370249454AADE592605936 /* Foundation.framework in Frameworks */,
+				FAE9EB7DFD04F3A64E898BD7F1220CF8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D71AB8245233483FD4AB864C2ACA3104 /* Frameworks */ = {
+		26D736B3E0A5C8EC46533D98947AADE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703663590AF738D8E7B92114C7856730 /* Foundation.framework in Frameworks */,
+				8542C0D205FDD6B4720465EE91D94D1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9F3A8A37DA8304CF01E219663730A43 /* Frameworks */ = {
+		CBF9A7887AA3A172822471A6C2AD9F75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C5D78A4C39862199BA2DD735F204C5 /* Foundation.framework in Frameworks */,
+				5F6034B71DF780BD3C1950FFC74A6CAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13566D7EB65627545BC0B1BDCB7D9070 /* Pods-AZLRefresh_Example */ = {
+		2AEC72DF2C49C93CF0A1C552DC1123DC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5EE67CA8F7CBE806C5D9DAD0C7272075 /* Info.plist */,
-				3A5B7305E1B9F06D31FCBB770B209589 /* Pods-AZLRefresh_Example.modulemap */,
-				0B6803D6CBADAA402AACAF5C9AA83470 /* Pods-AZLRefresh_Example-acknowledgements.markdown */,
-				8061C263BDC52E15867CC18992D40A15 /* Pods-AZLRefresh_Example-acknowledgements.plist */,
-				0FFE1B5E46839339A6D155C636785F81 /* Pods-AZLRefresh_Example-dummy.m */,
-				ADF08FD6915195C895712074A2668438 /* Pods-AZLRefresh_Example-frameworks.sh */,
-				216D60886A124D0E18A4CBD3879A88BD /* Pods-AZLRefresh_Example-resources.sh */,
-				C058D697FA4E65DB8EE8410D2DA2608F /* Pods-AZLRefresh_Example-umbrella.h */,
-				6B6E80D758947B1C85731D058F8C5391 /* Pods-AZLRefresh_Example.debug.xcconfig */,
-				D6D4472917C70EE0E20774FA21722B83 /* Pods-AZLRefresh_Example.release.xcconfig */,
+				049A3C552D4CF8DCED97AE93C9DE0A2F /* AZLRefresh.podspec */,
+				EBF3F769AC568409F13112B98C0671FC /* LICENSE */,
+				5F809289A7F08AB3190FDDAB74A75A0F /* README.md */,
 			);
-			name = "Pods-AZLRefresh_Example";
-			path = "Target Support Files/Pods-AZLRefresh_Example";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		25DA50F2AA3A8EDFEDC6BA66DA684371 /* Support Files */ = {
+		561FF5E4AAEE9F1D492D0FD000901126 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCE5C0F5B434298D9070333DC3A0C8C6 /* AZLRefresh.modulemap */,
-				9C29A87A7994D79CD0E44A8C4E76E16C /* AZLRefresh.xcconfig */,
-				70350F61DF8EEA6BEBADC700055CC6EC /* AZLRefresh-dummy.m */,
-				DDEE856D132D66512BE8870413CF5790 /* AZLRefresh-prefix.pch */,
-				DB8C3240ED287CF9A6423392EE03CC21 /* AZLRefresh-umbrella.h */,
-				13221F7298DD122B955CC78D09C9053F /* Info.plist */,
+				06219CB9DF5BF90089603DA7529B630E /* AZLRefresh.modulemap */,
+				5EC25E27BEB80A2E15E846D0E046D745 /* AZLRefresh.xcconfig */,
+				7B7D6E7EC5FAF1D02DCCF114C06EBF28 /* AZLRefresh-dummy.m */,
+				8489FA56876FB876B83D39D591112C9D /* AZLRefresh-Info.plist */,
+				FF7C46F4D064B5DF37DFAFED32A4F4FC /* AZLRefresh-prefix.pch */,
+				83AF6D0B6B2BA78B07D450E31D647A4C /* AZLRefresh-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AZLRefresh";
 			sourceTree = "<group>";
 		};
-		4109BE0D20D91A1D9BB7B8C7AEF19287 /* Development Pods */ = {
+		6C0D9563B24983E9952A9362E3DA7872 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4981180273F24F28ABC27D8A269EFC09 /* AZLRefresh */,
+				3FDCFF313220653E0365A44CCD10DE41 /* AZLRefresh.framework */,
+				DD50806068CDC214D272E749854EA691 /* Pods_AZLRefresh_Example.framework */,
+				144BED8DC8FE69F08597FCB543CBF678 /* Pods_AZLRefresh_Tests.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4981180273F24F28ABC27D8A269EFC09 /* AZLRefresh */ = {
+		7A29FF0AD7B3F15BF151D4E5A95E0506 /* Pods-AZLRefresh_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				14BA2739EC8445A81D67FB21CAA41621 /* AZLNormalRefreshFooter.swift */,
-				04618D368925820B328F892107B9D788 /* AZLNormalRefreshHeader.swift */,
-				12330364F69A82AD9AEAF0ADD80EC151 /* AZLRefreshFooter.swift */,
-				38486DA68B1E4D7778277C5D8AC182E7 /* AZLRefreshHeader.swift */,
-				300DA6A93AF5553CA1AADC987B924879 /* AZLRefreshResourceManager.swift */,
-				02291C75EB1D916B7E580C3D6F764C5F /* AZLRefreshView.swift */,
-				829AB33AFD1B92EB42513B6A67B1EF2B /* UIScrollView+AZLRefresh.swift */,
-				B046F43EEF0FF1FFD9BD20369AB0D477 /* Pod */,
-				B18E1A6D1851ED0304A144A9B4446393 /* Resources */,
-				25DA50F2AA3A8EDFEDC6BA66DA684371 /* Support Files */,
-			);
-			name = AZLRefresh;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4B1A4BDCA152FC86F73C6433BFDD4B81 /* Pods-AZLRefresh_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CB70322DFEF558F38BC3E1BE91A53479 /* Info.plist */,
-				732F9B77E23E0029262153F1A8D0D28E /* Pods-AZLRefresh_Tests.modulemap */,
-				29175CEBD3401111257FDCFD9675FEF9 /* Pods-AZLRefresh_Tests-acknowledgements.markdown */,
-				955C1EC03B7D1799ADA00F6CE4007F4E /* Pods-AZLRefresh_Tests-acknowledgements.plist */,
-				9DA8539313EAF3C0027F86829989AF1B /* Pods-AZLRefresh_Tests-dummy.m */,
-				A30636620E604234A9719CBA2C94EA84 /* Pods-AZLRefresh_Tests-frameworks.sh */,
-				4FD01C4857DCD2F1827958870F1023A5 /* Pods-AZLRefresh_Tests-resources.sh */,
-				7B3F62E0DD950D610E7ECCF6E7ED3362 /* Pods-AZLRefresh_Tests-umbrella.h */,
-				07A6FC7D7B555A12576428075D0FE249 /* Pods-AZLRefresh_Tests.debug.xcconfig */,
-				97F0111DD503BDCFE986AF03267F0E3B /* Pods-AZLRefresh_Tests.release.xcconfig */,
+				0C32FB379B8967705671192F8177C960 /* Pods-AZLRefresh_Tests.modulemap */,
+				8E62C1C5F26034CFDF987C15AB9D9E28 /* Pods-AZLRefresh_Tests-acknowledgements.markdown */,
+				DE57E289EB7E24D1E6E4203F4A040006 /* Pods-AZLRefresh_Tests-acknowledgements.plist */,
+				E9098FDDDFAA66E59A0E178AE6A19502 /* Pods-AZLRefresh_Tests-dummy.m */,
+				AD878E876B40031C8CC11475C1C1DA7F /* Pods-AZLRefresh_Tests-Info.plist */,
+				F82F5BE54A243B377693967A0F93E54E /* Pods-AZLRefresh_Tests-umbrella.h */,
+				8A9C771D4811E1ADF2FA1AD93CB031CB /* Pods-AZLRefresh_Tests.debug.xcconfig */,
+				4A4E512BF023F47B3821F1FFCE17209A /* Pods-AZLRefresh_Tests.release.xcconfig */,
 			);
 			name = "Pods-AZLRefresh_Tests";
 			path = "Target Support Files/Pods-AZLRefresh_Tests";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75FCD1AB5E1F35E75593E54536EACD5E /* Targets Support Files */ = {
+		B71E00ED04D57DDB5B130F36EEC7705E /* Pods-AZLRefresh_Example */ = {
 			isa = PBXGroup;
 			children = (
-				13566D7EB65627545BC0B1BDCB7D9070 /* Pods-AZLRefresh_Example */,
-				4B1A4BDCA152FC86F73C6433BFDD4B81 /* Pods-AZLRefresh_Tests */,
+				17D4306A210D98C7962F2C95E488D1D3 /* Pods-AZLRefresh_Example.modulemap */,
+				7B8FA094BE26223660BE4EA574D4BD2C /* Pods-AZLRefresh_Example-acknowledgements.markdown */,
+				632E20592C1748F9B83FC49CD98C8C59 /* Pods-AZLRefresh_Example-acknowledgements.plist */,
+				55D2D9FDC9B402EA8A51510AF651A152 /* Pods-AZLRefresh_Example-dummy.m */,
+				5DDD610A52AB1DC0C22282B38EA26EFD /* Pods-AZLRefresh_Example-frameworks.sh */,
+				43825EEE9B6D2333383D6EF2DC484E56 /* Pods-AZLRefresh_Example-Info.plist */,
+				B70331D613434607FCE88C0BD28AE30D /* Pods-AZLRefresh_Example-umbrella.h */,
+				5641E957C93AC5EEB6E71F3170E10D2F /* Pods-AZLRefresh_Example.debug.xcconfig */,
+				7A0C1B54FAC6586EB985031FAA15CB0C /* Pods-AZLRefresh_Example.release.xcconfig */,
+			);
+			name = "Pods-AZLRefresh_Example";
+			path = "Target Support Files/Pods-AZLRefresh_Example";
+			sourceTree = "<group>";
+		};
+		BC8B4D73A79021AAE2BA93E9F7FC92E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71E00ED04D57DDB5B130F36EEC7705E /* Pods-AZLRefresh_Example */,
+				7A29FF0AD7B3F15BF151D4E5A95E0506 /* Pods-AZLRefresh_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		C20C00E2B706188945E2802422CBD91A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4109BE0D20D91A1D9BB7B8C7AEF19287 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E998FDD423B766C6EB4FD44836063E16 /* Products */,
-				75FCD1AB5E1F35E75593E54536EACD5E /* Targets Support Files */,
+				D691ED9034D6D8B4E6FC022784E1D291 /* AZLRefresh */,
 			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B046F43EEF0FF1FFD9BD20369AB0D477 /* Pod */ = {
+		CE9F2D7188E7721D41E66D177419F0DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FBA86C9FE6267021E87EEC7DEAAA42EB /* AZLRefresh.podspec */,
-				C114F31C4BBBDEE1C0FB2E467F09F546 /* LICENSE */,
-				8BB8F2AE8A0D99A3AE905073EE9B192F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B18E1A6D1851ED0304A144A9B4446393 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2C0911558E433E2A2C3DB7F69350DE83 /* AZLRefresh.bundle */,
+				0C83AC619B7CB26F3CA8A737BE6DBBEF /* AZLRefresh.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C20C00E2B706188945E2802422CBD91A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6C0D9563B24983E9952A9362E3DA7872 /* Products */,
+				BC8B4D73A79021AAE2BA93E9F7FC92E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E998FDD423B766C6EB4FD44836063E16 /* Products */ = {
+		D691ED9034D6D8B4E6FC022784E1D291 /* AZLRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				26DF03D3170DD06D11D2F5C12D1D8D71 /* AZLRefresh.framework */,
-				52F3E0D2B1C61BC0E111C16AB89EDA21 /* Pods_AZLRefresh_Example.framework */,
-				12882127BF77C86CA4AD7CE69FF84DCC /* Pods_AZLRefresh_Tests.framework */,
+				54813390D89BE904083C424DE7967D4D /* AZLNormalRefreshFooter.swift */,
+				30A385CB7F1F97ED92F0D3872312A9B6 /* AZLNormalRefreshHeader.swift */,
+				47FBC3A754046BC2BBBB52B9B3BE8554 /* AZLRefreshFooter.swift */,
+				120C82E41A621D670DCF892877C0D57C /* AZLRefreshHeader.swift */,
+				FE2D68A45BAF1E400DCA30F555535195 /* AZLRefreshResourceManager.swift */,
+				560CF6AAEB6BB22EAF89AF501E87E186 /* AZLRefreshView.swift */,
+				FFFBD759FB2964ABA50C742800AB6415 /* UIScrollView+AZLRefresh.swift */,
+				2AEC72DF2C49C93CF0A1C552DC1123DC /* Pod */,
+				CE9F2D7188E7721D41E66D177419F0DD /* Resources */,
+				561FF5E4AAEE9F1D492D0FD000901126 /* Support Files */,
 			);
-			name = Products;
+			name = AZLRefresh;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3084B076006DB75824BC8D04A25731E1 /* Headers */ = {
+		9DF5C8E399F77A0F164D78F1E4204774 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C7ECA053919A5443DF4A6DC68646C4 /* Pods-AZLRefresh_Tests-umbrella.h in Headers */,
+				2D768E5E695F53486585234A2871F4CB /* Pods-AZLRefresh_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3237D6B8BBC6B67DF02E2639A4BAD97A /* Headers */ = {
+		E2A5F9EBA92DEC80FF62B7E88566A18E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C168B6957A169C7F8EAB7155A2480C11 /* Pods-AZLRefresh_Example-umbrella.h in Headers */,
+				F77F570F2A91A038CB8D3E4C4508E1AB /* AZLRefresh-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7EAE89067B9DFBE8C516239C8EAF653 /* Headers */ = {
+		ECAEA059E612D06F38015BEBE50258BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97B6052ACCE3FDCF5EEDCF84F39D2D7 /* AZLRefresh-umbrella.h in Headers */,
+				6DDBE3505E82FC338AFAA2ECA497E9CC /* Pods-AZLRefresh_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		48A232D68F834D8724B45D777B574EDD /* Pods-AZLRefresh_Tests */ = {
+		6BE406649AF5AA9F35D514501BC42F2D /* AZLRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9C90DC05BC89F420391D47D98E76A1 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Tests" */;
+			buildConfigurationList = 5406AAAF47A0CDDFCBD985A6149F1531 /* Build configuration list for PBXNativeTarget "AZLRefresh" */;
 			buildPhases = (
-				DD2ACA86302F945D66A7BA4115B2B6D5 /* Sources */,
-				D9F3A8A37DA8304CF01E219663730A43 /* Frameworks */,
-				3084B076006DB75824BC8D04A25731E1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFFD1130D0803E9A7488786E75F18B7F /* PBXTargetDependency */,
-			);
-			name = "Pods-AZLRefresh_Tests";
-			productName = "Pods-AZLRefresh_Tests";
-			productReference = 12882127BF77C86CA4AD7CE69FF84DCC /* Pods_AZLRefresh_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		867413420F7ACE40296440CACE119143 /* Pods-AZLRefresh_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 889CEAC520A737525C296CCE3F9D397B /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Example" */;
-			buildPhases = (
-				B951D5527D6A2C7691D3AEC87E494AC9 /* Sources */,
-				AA58CCC8FD3E0F3CA4835D6387823FB0 /* Frameworks */,
-				3237D6B8BBC6B67DF02E2639A4BAD97A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4528D15DEEE6CE81529EDC2EEEEEF545 /* PBXTargetDependency */,
-			);
-			name = "Pods-AZLRefresh_Example";
-			productName = "Pods-AZLRefresh_Example";
-			productReference = 52F3E0D2B1C61BC0E111C16AB89EDA21 /* Pods_AZLRefresh_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C37A6CCE11816E621E58F58576B28235 /* AZLRefresh */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EFF66B11C1BB6E9858940508BE70543 /* Build configuration list for PBXNativeTarget "AZLRefresh" */;
-			buildPhases = (
-				3B581170D2B2DCDF7135ABB725954E21 /* Sources */,
-				D71AB8245233483FD4AB864C2ACA3104 /* Frameworks */,
-				2C8BD6072EE749F3658787DDE182DA6D /* Resources */,
-				F7EAE89067B9DFBE8C516239C8EAF653 /* Headers */,
+				E2A5F9EBA92DEC80FF62B7E88566A18E /* Headers */,
+				9BC3A7C894A9684B77D0A6385F1886D1 /* Sources */,
+				CBF9A7887AA3A172822471A6C2AD9F75 /* Frameworks */,
+				DF96FAE600697F6426982FBBDFCBE218 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,134 +295,153 @@
 			);
 			name = AZLRefresh;
 			productName = AZLRefresh;
-			productReference = 26DF03D3170DD06D11D2F5C12D1D8D71 /* AZLRefresh.framework */;
+			productReference = 3FDCFF313220653E0365A44CCD10DE41 /* AZLRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A0D1809A9FB8BD9B38D0568D88D7A2D /* Pods-AZLRefresh_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAEF4939B11A817FA306BB49E7C7319 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Example" */;
+			buildPhases = (
+				9DF5C8E399F77A0F164D78F1E4204774 /* Headers */,
+				05526655094374571CC6AE7B5F94F7E4 /* Sources */,
+				26D736B3E0A5C8EC46533D98947AADE4 /* Frameworks */,
+				C47227C6CF0EBEC3D2F649A84C644D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7EE24EB0C716920FDF7048F1DE63D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AZLRefresh_Example";
+			productName = "Pods-AZLRefresh_Example";
+			productReference = DD50806068CDC214D272E749854EA691 /* Pods_AZLRefresh_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B16B777568BBC9DA967365A55F01FDCC /* Pods-AZLRefresh_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3B1002D22AAFB7AD95EC6C72ED84D5 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Tests" */;
+			buildPhases = (
+				ECAEA059E612D06F38015BEBE50258BE /* Headers */,
+				3B35D10C6CA0788B58195D8115A23ED9 /* Sources */,
+				01DE9F5DC7F0D990C6532207AA7D201D /* Frameworks */,
+				7B829BC177B8E3C66B4E51C41BB767CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A9A98664A96C9F522B5087F5B1932B /* PBXTargetDependency */,
+			);
+			name = "Pods-AZLRefresh_Tests";
+			productName = "Pods-AZLRefresh_Tests";
+			productReference = 144BED8DC8FE69F08597FCB543CBF678 /* Pods_AZLRefresh_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E998FDD423B766C6EB4FD44836063E16 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6C0D9563B24983E9952A9362E3DA7872 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C37A6CCE11816E621E58F58576B28235 /* AZLRefresh */,
-				867413420F7ACE40296440CACE119143 /* Pods-AZLRefresh_Example */,
-				48A232D68F834D8724B45D777B574EDD /* Pods-AZLRefresh_Tests */,
+				6BE406649AF5AA9F35D514501BC42F2D /* AZLRefresh */,
+				9A0D1809A9FB8BD9B38D0568D88D7A2D /* Pods-AZLRefresh_Example */,
+				B16B777568BBC9DA967365A55F01FDCC /* Pods-AZLRefresh_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C8BD6072EE749F3658787DDE182DA6D /* Resources */ = {
+		7B829BC177B8E3C66B4E51C41BB767CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED25CDA0B70F2A5A9AFDE6654E6A424 /* AZLRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47227C6CF0EBEC3D2F649A84C644D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF96FAE600697F6426982FBBDFCBE218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AA7325725487478709E2F02CAAB729 /* AZLRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B581170D2B2DCDF7135ABB725954E21 /* Sources */ = {
+		05526655094374571CC6AE7B5F94F7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1468A172CBA4A9C50361FA228B2BB39 /* AZLNormalRefreshFooter.swift in Sources */,
-				A5440638EB8D31104753ABC03B11CF54 /* AZLNormalRefreshHeader.swift in Sources */,
-				1DEC5CC0B9BD8EC88E3070E5F566FAB4 /* AZLRefresh-dummy.m in Sources */,
-				D86F500E231F488294A25BBD4A8AF267 /* AZLRefreshFooter.swift in Sources */,
-				7A78E587F7FD42BAB8A5C84B04E2AE77 /* AZLRefreshHeader.swift in Sources */,
-				C5A19E6B6EC7413193AB0C4766A50DF7 /* AZLRefreshResourceManager.swift in Sources */,
-				E94C07F0814DD5B330EBAF267D6F47CD /* AZLRefreshView.swift in Sources */,
-				8F672DE658C367228048462FBCF5D5F1 /* UIScrollView+AZLRefresh.swift in Sources */,
+				56C61ACEFF263434C1E6F56B68EF26D2 /* Pods-AZLRefresh_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B951D5527D6A2C7691D3AEC87E494AC9 /* Sources */ = {
+		3B35D10C6CA0788B58195D8115A23ED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8582E1286B8149069774136BFB1019CA /* Pods-AZLRefresh_Example-dummy.m in Sources */,
+				13EB005D3A068EEBD9D7A3C9FB91A089 /* Pods-AZLRefresh_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD2ACA86302F945D66A7BA4115B2B6D5 /* Sources */ = {
+		9BC3A7C894A9684B77D0A6385F1886D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72534FF9D0EF8249DC28BD63A0000AC /* Pods-AZLRefresh_Tests-dummy.m in Sources */,
+				B9C7859D1093B2843CD561BB25D53897 /* AZLNormalRefreshFooter.swift in Sources */,
+				FE4CA2BC203B0396274FCAD8FD694CA6 /* AZLNormalRefreshHeader.swift in Sources */,
+				1C24F10BB0EFD1CFC2E092BA250F64BF /* AZLRefresh-dummy.m in Sources */,
+				B41E3E8F6DEB4E7F312F5F4F76D31B98 /* AZLRefreshFooter.swift in Sources */,
+				BD0B2584F1F3AF801BC811DB5D6EA823 /* AZLRefreshHeader.swift in Sources */,
+				AFACD06E1564F58105F9B3DEC3906226 /* AZLRefreshResourceManager.swift in Sources */,
+				42BAA800188075BFEBA4ECDB4CF48EBD /* AZLRefreshView.swift in Sources */,
+				FB8AF9A48B5B2E2F0B518228D04F471B /* UIScrollView+AZLRefresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4528D15DEEE6CE81529EDC2EEEEEF545 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AZLRefresh;
-			target = C37A6CCE11816E621E58F58576B28235 /* AZLRefresh */;
-			targetProxy = 68A25B3C613D179F53907EABEA3AE3A6 /* PBXContainerItemProxy */;
-		};
-		FFFD1130D0803E9A7488786E75F18B7F /* PBXTargetDependency */ = {
+		E4A9A98664A96C9F522B5087F5B1932B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AZLRefresh_Example";
-			target = 867413420F7ACE40296440CACE119143 /* Pods-AZLRefresh_Example */;
-			targetProxy = C1F33EFE293369AA6D3C1D08D7F9CD4F /* PBXContainerItemProxy */;
+			target = 9A0D1809A9FB8BD9B38D0568D88D7A2D /* Pods-AZLRefresh_Example */;
+			targetProxy = 5DBBE28223E026EF30C9CADE8765ED82 /* PBXContainerItemProxy */;
+		};
+		FD7EE24EB0C716920FDF7048F1DE63D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZLRefresh;
+			target = 6BE406649AF5AA9F35D514501BC42F2D /* AZLRefresh */;
+			targetProxy = AECB16C8DEB2E4D1BFB0B65023FE390A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42C8122ECC73A3256BB7E050A6C4A304 /* Release */ = {
+		24F7A88148E298E80C817899C093B988 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C29A87A7994D79CD0E44A8C4E76E16C /* AZLRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AZLRefresh/AZLRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AZLRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AZLRefresh/AZLRefresh.modulemap";
-				PRODUCT_MODULE_NAME = AZLRefresh;
-				PRODUCT_NAME = AZLRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		49C7ECDAD46636F9AF1FE7220397E575 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A6FC7D7B555A12576428075D0FE249 /* Pods-AZLRefresh_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8A9C771D4811E1ADF2FA1AD93CB031CB /* Pods-AZLRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -476,7 +453,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -495,41 +472,9 @@
 			};
 			name = Debug;
 		};
-		6490451D7436AA562152EFBD6DF78957 /* Debug */ = {
+		5022D700738410E4B8F6FB13C1F8266D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C29A87A7994D79CD0E44A8C4E76E16C /* AZLRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AZLRefresh/AZLRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AZLRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AZLRefresh/AZLRefresh.modulemap";
-				PRODUCT_MODULE_NAME = AZLRefresh;
-				PRODUCT_NAME = AZLRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		706DA8077563A4B3A7B9ED44ED553B31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6D4472917C70EE0E20774FA21722B83 /* Pods-AZLRefresh_Example.release.xcconfig */;
+			baseConfigurationReference = 4A4E512BF023F47B3821F1FFCE17209A /* Pods-AZLRefresh_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -541,12 +486,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -554,7 +499,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,42 +506,7 @@
 			};
 			name = Release;
 		};
-		73711A2A0D1A1E8B6086CF09E306F286 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B6E80D758947B1C85731D058F8C5391 /* Pods-AZLRefresh_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -629,8 +538,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -651,16 +558,149 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		C2621474DD88E51DCFA8930C493AF1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC25E27BEB80A2E15E846D0E046D745 /* AZLRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZLRefresh/AZLRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZLRefresh/AZLRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZLRefresh/AZLRefresh.modulemap";
+				PRODUCT_MODULE_NAME = AZLRefresh;
+				PRODUCT_NAME = AZLRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0BB7E6DA5E34E7F0107D581A6A789ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5641E957C93AC5EEB6E71F3170E10D2F /* Pods-AZLRefresh_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF8D48EE86AB722384A7A714BB02E3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC25E27BEB80A2E15E846D0E046D745 /* AZLRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZLRefresh/AZLRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZLRefresh/AZLRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZLRefresh/AZLRefresh.modulemap";
+				PRODUCT_MODULE_NAME = AZLRefresh;
+				PRODUCT_NAME = AZLRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F174F7D5745C13268BBBF611EE0914A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C1B54FAC6586EB985031FAA15CB0C /* Pods-AZLRefresh_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -692,8 +732,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -712,86 +750,56 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F589D0A818964A011066E7D3F6EB793A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97F0111DD503BDCFE986AF03267F0E3B /* Pods-AZLRefresh_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AZLRefresh_Tests/Pods-AZLRefresh_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B9C90DC05BC89F420391D47D98E76A1 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Tests" */ = {
+		5406AAAF47A0CDDFCBD985A6149F1531 /* Build configuration list for PBXNativeTarget "AZLRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49C7ECDAD46636F9AF1FE7220397E575 /* Debug */,
-				F589D0A818964A011066E7D3F6EB793A /* Release */,
+				EF8D48EE86AB722384A7A714BB02E3AA /* Debug */,
+				C2621474DD88E51DCFA8930C493AF1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		889CEAC520A737525C296CCE3F9D397B /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Example" */ = {
+		7D3B1002D22AAFB7AD95EC6C72ED84D5 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73711A2A0D1A1E8B6086CF09E306F286 /* Debug */,
-				706DA8077563A4B3A7B9ED44ED553B31 /* Release */,
+				24F7A88148E298E80C817899C093B988 /* Debug */,
+				5022D700738410E4B8F6FB13C1F8266D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EFF66B11C1BB6E9858940508BE70543 /* Build configuration list for PBXNativeTarget "AZLRefresh" */ = {
+		AEAEF4939B11A817FA306BB49E7C7319 /* Build configuration list for PBXNativeTarget "Pods-AZLRefresh_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6490451D7436AA562152EFBD6DF78957 /* Debug */,
-				42C8122ECC73A3256BB7E050A6C4A304 /* Release */,
+				E0BB7E6DA5E34E7F0107D581A6A789ED /* Debug */,
+				F174F7D5745C13268BBBF611EE0914A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

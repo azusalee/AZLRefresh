@@ -2,7 +2,7 @@
 //  AZLRefreshResourceManager.swift
 //  ALExampleTest
 //
-//  Created by yangming on 2018/11/13.
+//  Created by lizihong on 2018/11/13.
 //  Copyright © 2018年 Mac. All rights reserved.
 //
 

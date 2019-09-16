@@ -2,7 +2,7 @@
 //  AZLNormalRefreshFooter.swift
 //  ALExampleTest
 //
-//  Created by yangming on 2018/11/13.
+//  Created by lizihong on 2018/11/13.
 //  Copyright © 2018年 Mac. All rights reserved.
 //
 
@@ -16,10 +16,10 @@ public class AZLNormalRefreshFooter: AZLRefreshFooter {
         super.init(frame: frame)
         self.contentLabel.frame = self.bounds
         self.contentLabel.textAlignment = .center
-        self.contentLabel.font = UIFont.systemFont(ofSize: 15)
-        self.contentLabel.textColor = UIColor.black
+        self.contentLabel.font = UIFont.systemFont(ofSize: 13)
+        self.contentLabel.textColor = UIColor.darkGray
         self.contentLabel.numberOfLines = 0
-        self.contentLabel.autoresizingMask = [.flexibleWidth]
+        //self.contentLabel.autoresizingMask = [.flexibleWidth]
         self.addSubview(self.contentLabel)
         
         self.indicateView.style = .gray

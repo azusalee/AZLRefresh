@@ -1,5 +1,5 @@
 PODS:
-  - AZLRefresh (0.1.0)
+  - AZLRefresh (0.1.1)
 
 DEPENDENCIES:
   - AZLRefresh (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZLRefresh: 50617937567cffb4af52a3574c7108a1e618c2b1
+  AZLRefresh: 624ddb6a248c3c6ddbc090c22e0a99aef7638e74
 
 PODFILE CHECKSUM: 83fc97c783411b33a72b11a40418c61b476821fd
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

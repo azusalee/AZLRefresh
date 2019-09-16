@@ -2,7 +2,7 @@
 //  AZLRefreshFooter.swift
 //  ALExampleTest
 //
-//  Created by yangming on 2018/11/12.
+//  Created by lizihong on 2018/11/12.
 //  Copyright © 2018年 Mac. All rights reserved.
 //
 

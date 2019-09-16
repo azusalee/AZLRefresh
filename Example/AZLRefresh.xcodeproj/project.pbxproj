@@ -171,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				4FA80C1B4A00DB77C2D712BE /* [CP] Embed Pods Frameworks */,
+				8C2CE04A21C34E1400201E68 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -267,7 +268,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AZLRefresh/AZLRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -276,8 +277,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZLRefresh_Example/Pods-AZLRefresh_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8C2CE04A21C34E1400201E68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		9E981F58F391D7E9DD3CE260 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
